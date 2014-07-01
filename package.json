@@ -17,7 +17,9 @@
   "keywords": [
     "yeoman",
     "yeoman-generator",
+    "generator",
     "blender",
+    "mixin",
     "mixins"
   ],
   "main": "lib/index.js",
@@ -30,8 +32,7 @@
   },
   "devDependencies": {
     "chai": "^1.9.1",
-    "mocha": "^1.20.1",
-    "sinon": "^1.10.2"
+    "mocha": "^1.20.1"
   },
   "scripts": {
     "test": "mocha -R spec test/specs/*.js"
